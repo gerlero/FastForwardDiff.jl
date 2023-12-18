@@ -1,9 +1,18 @@
 name = "FastForwardDiff"
 uuid = "dda8b3af-db81-48ce-b77a-9f93a3049212"
 authors = ["Gabriel Gerlero"]
-version = "1.0.0-DEV"
+version = "1.0.0"
+
+[deps]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [compat]
+Aqua = "0.8"
+ForwardDiff = "0.10"
+JET = "0.4, 0.5, 0.6, 0.7, 0.8"
+Test = "1"
+Unitful = "1"
 julia = "1.6"
 
 [extras]
